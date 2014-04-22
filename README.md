@@ -4,6 +4,7 @@ A place to document our standard operating procedures.
 
 ## Git
 - Commit early, commit often.
+- If you are working on a task that has an associated Jira ticket, please create a branch for the issue using the issue number as the name of the branch, for example, WP-100.
 - Prefix your commits with the ticket number.
 - Never prefix your commits with a `#` sign, this can cause the commit to be lost during rebase.
 - Use `git add -p` to stage individual hunks, and use `git diff --staged` to review before committing.
@@ -13,7 +14,7 @@ A place to document our standard operating procedures.
 ### Drush
 - Use the 6.x branch of [drush](https://github.com/drush-ops/drush) from github
 
-###Ruby
+### Ruby
 - Use [ruby-install](https://github.com/postmodern/ruby-install) and [chruby](https://github.com/postmodern/chruby) to manage ruby versions.
 - Use [bundler](http://bundler.io) to manage rubygem versions.
 
